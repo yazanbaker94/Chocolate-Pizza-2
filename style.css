@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+}
+
+header nav ul li:first-child {
+    text-align: left;
+    position: relative;
+    right: 600px;
+    
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+header nav ul li h2 {
+    position: relative;
+    bottom: 20px;
+    left: 10px;
+    font-style: oblique;
+    font-family: 'Brush Script MT', cursive;
+    font-size: 50px;
+}
+
+header nav ul li:nth-child(3) {
+    position: relative;
+    right: 150px;
+    font-size: 10px;
+    color: gray;
+}
+
+header nav ul li img{
+    position: relative;
+    left: 600px;
+}
+
+hr {
+    border-top: 10px double grey;
+    position: relative;
+    bottom: 50px;
+    width: 92%;
+
+  }
+
+main{
+    margin: 70px;
+}
+h1{
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h4{
+    color: gray;
+    position: relative;
+    bottom: 30px;
+    left: 10px;
+}
+main section img:first-of-type{
+    position: relative;
+    float: right;
+    right: 20px;
+    bottom: 75px;
+    
+}
+main section h6{
+    position: relative;
+    float: right;
+    bottom: 100px;
+    right: 10px;
+   color: gray;     
+}
+
+main section img:nth-of-type(2){
+    display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width: 100%;
+ position: relative;
+ bottom: 100px;
+
+}
+p{
+    position: relative;
+    font-size: 20px;
+    bottom: 100px;
+}
+
+main section:nth-of-type(3){
+    background-image:url(./assets/list-bg.png);
+    width: 100%;
+    height: 47vh;
+    position: relative;
+    bottom: 100px;
+
+    
+    
+}
+
+main section ul:first-of-type{
+    font-size: 25px;
+    display: inline-block;
+    position: relative;
+    margin: 50px;
+    margin-left:100px ;
+
+    
+}
+main section ul:last-of-type{
+    font-size: 25px;
+    display: inline-block;
+    margin: 50px;
+    margin-right:100px ;
+ 
+    position: relative;
+    
+}
+
+footer img{
+    margin: 20px;
+    position: relative;
+    bottom: 50px;
+}
+
+h3{
+    position: relative;
+    bottom: 160px;
+    left: 100px;
+}
+
+footer p{
+    width: 70%;
+    position: relative;
+    bottom: 160px;
+    left: 100px;   
+}
+button{
+    background-color:#bc7058;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    float: right;
+    position: relative;
+    bottom: 220px;
+    right: 150px;
+
+}
+
+article hr{
+
+    border-top: 1px solid grey;
+    position: relative;
+    bottom: 100px;
+}
+
+article img{
+    position: relative;
+    bottom: 150px;
+    left: 580px;
+}
+
+article ul{
+    text-align: center;
+    position: relative;
+    color: gray;
+    bottom: 150px;
+    right: 25px;
+}
+
